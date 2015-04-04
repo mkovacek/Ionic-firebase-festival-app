@@ -1,0 +1,38 @@
+<ion-view title="{{'menu_sponsors' | translate}}">
+    <ion-content class="has-header">
+        <ion-list >
+            <div ng-repeat="item in sponsors" class="item-text-wrap">
+
+                <ion-item class="item-thumbnail-left item-icon-right" ng-click="openModal(item.description,item.img)" >
+                    <img ng-src="{{item.img}}" fallback-src="img/fallback-img.jpg">
+                    <br>
+                    <h2>{{item.name}}</h2>
+                    <i class="icon ion-chevron-right energized"></i>
+                </ion-item>
+            </div>
+        </ion-list>
+    </ion-content>
+
+    <!-- Modal template  -->
+    <script id="sponsors-modal.html" type="text/ng-template">
+        <div class="modal">
+            <ion-content>
+                <div class="list card">
+                    <div class="item text-center sponsorDetailImage centered ">
+                        <img ng-src="{{details.img}}" fallback-src="img/renaissance.jpg" class="full-image">
+                    </div>
+                    <ion-item class="item-divider item-energized">{{'details' | translate}}</ion-item>
+                    <div class="item item-icon-left item-text-wrap">
+                        <i class="icon ion-star energized"></i>
+                        <p>{{details.description}}</p>
+                    </div>
+                </div>
+                <button class="button button-full button-energized" ng-click="closeModal()">{{'exit' | translate}}</button>
+            </ion-content>
+        </div>
+    </script>
+
+</ion-view>
+
+
+

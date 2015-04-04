@@ -1,0 +1,18 @@
+<ion-view title="{{'menu_contact' | translate}}">
+    <ion-content class="has-header" ng-controller="ContactCtrl">
+        <div ng-repeat="item in contacts">
+            <img ng-if="item.img!='null'" ng-src="{{item.img}}" fallback-src="img/contact.jpg" class="renaissanceImg">
+            <h2 ng-if="item.header!='null'" class="text-center">{{item.header}}</h2>
+            <ion-item class="item item-icon-left ">
+                <i ng-if="item.title=='Address' || item.title=='Adresa'" class="icon ion-home energized"></i>
+                <i ng-if="item.title=='Telephone' || item.title=='Telefon'" class="icon ion-iphone energized"></i>
+                <i ng-if="item.title=='Email'" class="icon ion-email energized"></i>
+                <i ng-if="item.title=='Fax'" class="icon ion-printer energized"></i>
+                <i ng-if="item.title=='Web'" class="icon ion-wifi energized"></i>
+                {{item.title}}:
+                <span class="item-note text-center">{{item.information}}</span>
+            </ion-item>
+        </div>
+        <img class="centered" src="img/logo-footer.png">
+    </ion-content>
+</ion-view>

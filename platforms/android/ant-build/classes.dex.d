@@ -1,0 +1,19 @@
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes.dex : \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$1.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$2.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$3.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\BuildConfig.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\R$attr.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\R$drawable.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\R$string.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\R$xml.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\R.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\com\ionicframework\renfest231185\RenFest.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\org\apache\cordova\globalization\Globalization$1.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\org\apache\cordova\globalization\Globalization.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\org\apache\cordova\globalization\GlobalizationError.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
+F:\Documents\Projects\AirRemote\Ren-Fest\Application\RenFest\platforms\android\ant-build\dexedLibs\classes-64de49388ad28012bb7effc77e66f49f.jar \

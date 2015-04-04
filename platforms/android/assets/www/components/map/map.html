@@ -1,0 +1,17 @@
+<ion-view title="{{'menu_map' | translate}}" >
+    <ion-nav-buttons side="left">
+        <button class="button button-icon icon ion-location light" ng-click="currentLocation()"></button>
+    </ion-nav-buttons>
+  <ion-content class="has-header">
+    <!--<div id="map" data-tap-disabled="true"></div>-->
+      <div class="angular-google-map-container" data-tap-disabled="true">
+          <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
+              <ui-gmap-markers models="markers" idKey="'idKey'" coords="'self'" icon="'icon'"  isLabel='true' click="onClick()">
+                  <ui-gmap-windows show="show">
+                      <div ng-non-bindable>{{title}}</div>
+                  </ui-gmap-windows>
+              </ui-gmap-markers>
+          </ui-gmap-google-map>
+      </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,14 @@
+<ion-view title="{{'menu_about_ren_fest' | translate}}">
+    <ion-content class="has-header" ng-controller="RenaissanceCtrl">
+        <div ng-repeat="item in renaissance">
+            <img ng-if="item.img!='null'" ng-src="{{item.img}}" fallback-src="img/renaissance.jpg" class="renaissanceImg">
+            <h2 ng-if="item.header!='null'" class="text-center">{{item.header}}</h2>
+            <ion-item class="item item-text-wrap">
+                <h2>{{item.title}}:</h2>
+                <p>{{item.information}}</p>
+            </ion-item>
+        </div>
+        <img class="centered" src="img/logo-footer.png">
+    </ion-content>
+</ion-view>
+

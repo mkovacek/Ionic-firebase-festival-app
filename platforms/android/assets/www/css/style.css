@@ -1,0 +1,112 @@
+/* Empty. Add your own CSS if you like */
+
+.text-justified{
+    text-align: justify;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.centered{
+    display: block!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 34%;
+}
+
+.imageContainer img{
+    width: auto;
+    height: 100%;
+}
+
+.imageContainer2{
+    width: 100%;
+    height: 33%;
+}
+
+.imageContainer2 img{
+    width: auto;
+    height: 100%;
+}
+
+/* RENAISSANCE TEMPLATE */
+.renaissanceImg{
+    width: 100%;
+}
+
+.renaissanceHeader{
+    font-family: Monotype Corsiva;
+    font-style: italic;
+    color: rgb(105,45,45);
+    text-align: center;
+    margin-top: 0.357em; /* 5px */
+}
+
+.renaissanceSubheader{
+    font-family: Monotype Corsiva;
+    font-style: italic;
+    color: rgb(40, 0, 0);
+}
+
+.renaissanceText{
+    margin: 1em;
+    font-family: Sans;
+}
+
+.renaissanceUnderline{
+    margin: 0.357em; /* 5px */
+    border: solid;
+    border-color: black;
+    border-width: 0.1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* CONTACT TEMPLATE */
+.contactInformation{
+    position: relative;
+    margin-top: 3em; /* 42px */
+    width: 95%;     /* otherwise the margin of the div row exceeds the right end of the screen */
+}
+
+.contactText{
+    font-family: Sans;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+
+/* MAP TEMPLATE */
+
+.angular-google-map-container {
+    height:100vh; width:100%; position:absolute; top:0; left:0;
+}
+
+/* FOOTER */
+.footerImg{
+    height: 43px;
+}
+
+.pict.activated{
+    background-color: #f0b840;
+    opacity: 0.5;
+}
+
+.helpPict{
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+.sponsorDetailImage{
+    width: 50%;
+    height: 50%;
+    border-width: 0 !important;
+}

@@ -1,0 +1,21 @@
+<ion-view title="{{'menu_event' | translate}}">
+    <ion-content class="has-header" ng-controller="EventsDetailsCtrl">
+        <div class="list card">
+            <div class="item item-image">
+                <img ng-if="choice=='menu1'" ng-src="{{img2}}" fallback-src="img/renaissance.jpg">
+            </div>
+            <ion-item class="item-divider item-energized">{{'timePlace' | translate}}</ion-item>
+            <div class="item item-icon-left item-text-wrap">
+                <i class="icon ion-star energized"></i>
+                <p>{{time}}</p>
+                <h2>{{title}}</h2>
+                <p ng-if="description!='null'">{{description}}</p>
+            </div>
+            <ion-item class="item-divider item-energized">{{'details' | translate}}</ion-item>
+            <div ng-repeat="item in detail" class="item item-icon-left item-text-wrap">
+                <i class="icon ion-load-c energized"></i>
+                <p>{{item}}</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
