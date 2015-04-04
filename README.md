@@ -1,0 +1,2 @@
+# Hybrid-mobile-app-for-festival
+School project: This mobile application allows users to find out useful information about the Renaissance Fair in Koprivnica, Croatia. By using this application its users can browse through the festival program and check out the details about related events. The application also includes a map of the mention events, nearby hotels and restaurants. App is multilingual, it's available on English and Croatian.
