@@ -15,7 +15,7 @@ angular.module('firebase.services', ['firebase'])
                      * @returns {Object[]|json}
                      */
                     getData: function(lang) {
-                        var URL="https://renfest.firebaseio.com/"+lang;
+                        var URL="https://something.firebaseio.com/"+lang;
                         var ref= new Firebase(URL);
                         var data = $firebase(ref).$asArray();
                         var q = $q.defer();
